@@ -1,0 +1,1 @@
+the camera has a Day_Night script in which you can control the change of day and night

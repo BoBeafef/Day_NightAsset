@@ -1,0 +1,21 @@
+{"ActiveWorkflow" : "FolderWorkflow", "FolderWorkflow" : {
+"mainPath" : {
+"path" : "Assets\/3D Day Night", 
+"guid" : "74bb69882ac61f344950b4cfd2cf5527"
+}, 
+"extraPaths" : [], 
+"dependencies" : false, 
+"dependenciesNames" : []
+}, "UnitypackageWorkflow" : {
+"mainPath" : {
+"path" : "", 
+"guid" : ""
+}, 
+"extraPaths" : []
+}, "HybridPackageWorkflow" : {
+"mainPath" : {
+"path" : "", 
+"guid" : ""
+}, 
+"extraPaths" : []
+}}

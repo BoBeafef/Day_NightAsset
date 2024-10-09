@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7379529722007195084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 620484478002219695}
+  - component: {fileID: 5758931696611844737}
+  - component: {fileID: 5009259214380465818}
+  - component: {fileID: 948999366840132523}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &620484478002219695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7379529722007195084}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.1503672, y: -0.020531688, z: 0.0031234876, w: 0.988412}
+  m_LocalPosition: {x: 2.05, y: 7.52, z: -4.69}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 17.3, y: -2.38, z: 0}
+--- !u!20 &5758931696611844737
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7379529722007195084}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &5009259214380465818
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7379529722007195084}
+  m_Enabled: 1
+--- !u!114 &948999366840132523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7379529722007195084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c4d76b16a4c1114b9f7a4a505b4aae2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numerOfStars: 200
+  _dayTime: 20
+  _Sun:
+    serializedVersion: 2
+    key0: {r: 0.20114513, g: 0.09669812, b: 0.38679248, a: 1}
+    key1: {r: 0.9433962, g: 0.9158619, b: 0.6986472, a: 1}
+    key2: {r: 0.9565885, g: 0.9319142, b: 0.75096905, a: 0}
+    key3: {r: 1, g: 0.5897723, b: 0.3537736, a: 0}
+    key4: {r: 0.2, g: 0.09803922, b: 0.3882353, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 16384
+    ctime2: 32768
+    ctime3: 46838
+    ctime4: 63415
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 5
+    m_NumAlphaKeys: 2
+  _Moon:
+    serializedVersion: 2
+    key0: {r: 0.20114513, g: 0.09669812, b: 0.38679248, a: 1}
+    key1: {r: 0.9433962, g: 0.9158619, b: 0.6986472, a: 1}
+    key2: {r: 0.9565885, g: 0.9319142, b: 0.75096905, a: 0}
+    key3: {r: 1, g: 0.5897723, b: 0.3537736, a: 0}
+    key4: {r: 0.2, g: 0.09803922, b: 0.3882353, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 2313
+    ctime1: 16384
+    ctime2: 32768
+    ctime3: 46838
+    ctime4: 63415
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 5
+    m_NumAlphaKeys: 2
+  _timeProgress: 0.536
+  _sunCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0003644647
+      value: 0.0317688
+      inSlope: 0.14651442
+      outSlope: 0.14651442
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.1377677
+      value: 0.052007154
+      inSlope: 0.57123816
+      outSlope: 0.57123816
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.18021044
+      value: 0.13132584
+      inSlope: 1.7667325
+      outSlope: 1.7667325
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.301975
+    - serializedVersion: 3
+      time: 0.3274991
+      value: 0.98996156
+      inSlope: 0.011209476
+      outSlope: 0.011209476
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.6618775
+    - serializedVersion: 3
+      time: 0.6521224
+      value: 0.9760313
+      inSlope: -0.22570436
+      outSlope: -0.22570436
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.98390216
+    - serializedVersion: 3
+      time: 0.7527437
+      value: 0.689695
+      inSlope: -3.5926578
+      outSlope: -3.5926578
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.74057287
+    - serializedVersion: 3
+      time: 0.8148722
+      value: 0.078776404
+      inSlope: -0.90609926
+      outSlope: -0.90609926
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 1
+    - serializedVersion: 3
+      time: 1.000971
+      value: 0.03274536
+      inSlope: -0.2473474
+      outSlope: -0.2473474
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 1
+    m_RotationOrder: 4
+  _moonCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.30426025
+      inSlope: 0.013540368
+      outSlope: 0.013540368
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.11935352
+      value: 0.30587634
+      inSlope: 0.24090108
+      outSlope: 0.24090108
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.6214539
+    - serializedVersion: 3
+      time: 0.24941
+      value: 0.00470078
+      inSlope: -0.03156767
+      outSlope: -0.03156767
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.36146593
+    - serializedVersion: 3
+      time: 0.7574962
+      value: 0.0063860863
+      inSlope: 0.08983606
+      outSlope: 0.08983606
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.40507302
+    - serializedVersion: 3
+      time: 0.88313156
+      value: 0.3038938
+      inSlope: -0.04950153
+      outSlope: -0.04950153
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.7447584
+    - serializedVersion: 3
+      time: 1
+      value: 0.30368805
+      inSlope: -0.0017605715
+      outSlope: -0.0017605715
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 1
+    m_PostInfinity: 1
+    m_RotationOrder: 4
+  _sky: {fileID: 2100000, guid: c7525e3e6b4fe4c45baed87b4f0abade, type: 2}
+  _sunLight: {fileID: 0}
+  _moonLight: {fileID: 0}
+  stars: {fileID: 0}
